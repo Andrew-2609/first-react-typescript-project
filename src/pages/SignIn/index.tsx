@@ -10,9 +10,9 @@ const SignIn: React.FC = () => {
             <Styles.Logo src={logo} alt="NdrewCoding Logo" />
             <Styles.Input type="text" defaultValue="test@gmail.com" />
             <Styles.Input type="password" defaultValue="12345678" />
-            <button onClick={() => { }}>
+            <Styles.Button onClick={() => { }}>
                 Sign In
-            </button>
+            </Styles.Button>
         </Styles.Container>
     );
 }

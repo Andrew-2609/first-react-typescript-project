@@ -24,3 +24,14 @@ export const Input = styled.input`
     border-radius: 4px;
     margin-bottom: 0.5rem;
 `;
+
+export const Button = styled.button`
+    border: 0;
+    max-width: 80%;
+    width: 20rem;
+    height: 2.5rem;
+    background-color: #7cfc00;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+`;
