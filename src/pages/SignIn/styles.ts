@@ -34,4 +34,12 @@ export const Button = styled.button`
     border-radius: 4px;
     color: #fff;
     cursor: pointer;
+
+    &:hover {
+        transform: scale(1.01);
+    }
+
+    &:active {
+        transform: scale(0.99);
+    }
 `;

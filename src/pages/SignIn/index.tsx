@@ -1,7 +1,6 @@
 import logo from "../../assets/logo.png";
 
 import { Container, Logo, Input, Button } from "./styles";
-import "./index.css";
 
 const SignIn: React.FC = () => {
 

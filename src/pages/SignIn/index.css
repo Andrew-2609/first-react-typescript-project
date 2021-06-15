@@ -1,7 +1,0 @@
-.sign-in-page button:hover {
-    transform: scale(1.01);
-}
-
-.sign-in-page button:active {
-    transform: scale(0.99);
-}
