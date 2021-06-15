@@ -1,19 +1,19 @@
 import logo from "../../assets/logo.png";
 
-import * as Styles from "./styles";
+import { Container, Logo, Input, Button } from "./styles";
 import "./index.css";
 
 const SignIn: React.FC = () => {
 
     return (
-        <Styles.Container className="sign-in-page">
-            <Styles.Logo src={logo} alt="NdrewCoding Logo" />
-            <Styles.Input type="text" defaultValue="test@gmail.com" />
-            <Styles.Input type="password" defaultValue="12345678" />
-            <Styles.Button onClick={() => { }}>
+        <Container className="sign-in-page">
+            <Logo src={logo} alt="NdrewCoding Logo" />
+            <Input type="text" defaultValue="test@gmail.com" />
+            <Input type="password" defaultValue="12345678" />
+            <Button onClick={() => { }}>
                 Sign In
-            </Styles.Button>
-        </Styles.Container>
+            </Button>
+        </Container>
     );
 }
 
