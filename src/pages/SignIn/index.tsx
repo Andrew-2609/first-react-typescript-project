@@ -8,8 +8,8 @@ const SignIn: React.FC = () => {
     return (
         <Styles.Container className="sign-in-page">
             <Styles.Logo src={logo} alt="NdrewCoding Logo" />
-            <input type="text" defaultValue="test@gmail.com" />
-            <input type="password" defaultValue="12345678" />
+            <Styles.Input type="text" defaultValue="test@gmail.com" />
+            <Styles.Input type="password" defaultValue="12345678" />
             <button onClick={() => { }}>
                 Sign In
             </button>

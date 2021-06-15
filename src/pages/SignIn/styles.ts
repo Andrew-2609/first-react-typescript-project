@@ -14,3 +14,13 @@ export const Logo = styled.img`
     width: 100px;
     margin-bottom: 1rem;
 `;
+
+export const Input = styled.input`
+    padding: 10px;
+    border: 2px solid #5f9ea0;
+    max-width: 80%;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+`;
