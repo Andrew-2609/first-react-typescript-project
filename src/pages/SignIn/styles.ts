@@ -9,3 +9,8 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
 `;
+
+export const Logo = styled.img`
+    width: 100px;
+    margin-bottom: 1rem;
+`;
